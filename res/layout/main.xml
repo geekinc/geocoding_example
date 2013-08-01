@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Latitude:" android:layout_marginTop="25px"/>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtLatitude" android:text="29.661"></TextView>
+<TextView android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Longitude:" android:layout_marginTop="25px"></TextView>
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txtLongitude" android:text="-95.230"></TextView>
+<Button android:text="Lookup" android:id="@+id/btnTestTest" android:layout_width="250px" android:layout_marginTop="215px" android:layout_marginLeft="75px" android:layout_height="50px"></Button>
+<Button android:id="@+id/btnReverseGeocode" android:text="Reverse Geocode" android:layout_width="250px" android:layout_marginTop="25px" android:layout_marginLeft="75px" android:layout_height="50px"></Button>
+</LinearLayout>
